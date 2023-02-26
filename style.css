@@ -1,0 +1,307 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #F2D5C9; 
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: black;
+  text-align: right;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 80px;
+  font-family: "Courier New", "Lucida Console", monospace;
+  margin-top: 15px;
+  background-color: #DB9895;
+  opacity: 0.6;
+  border-top: solid 2px #57422E;
+  border-bottom: solid 2px #57422E;
+  font-weight: 800;
+}
+a:link{
+  text-decoration: none;
+  background-color: #DBB2AB;
+}
+a:visited{
+  text-decoration: none;
+  background-color: #DBB2AB;
+}
+a:hover{
+  text-decoration: none;
+  background-color: #DBC1AB;
+  color: white;
+}
+a:active{
+  text-decoration:none;
+  background-color: #F9E3C2;
+}
+ul {
+  list-style-type: none;
+  margin: 15px;
+  padding: 0;
+  width: 150px%;
+  background-color: #DBB2AB;
+  height: 95%;
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  border: solid 3px black;
+  z-index: 100;
+}
+li a {
+  color: black;
+  display: block;
+  width: 200px; 
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  font-size: 23px;
+  background-color: #DBB2AB;
+  font-weight: 700;
+  font-family: "Arial Rounded MT Bold", "Ariel Black", ariel;
+}
+.slideshow{ 
+  width: 1200px;
+  height: 700px;
+  border: solid 2px black;
+  opacity: 0.7;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  margin-top: 20px;
+  max-width: 1200px;
+  position: relative;
+  margin-left: 350px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+.dots{
+  margin-left: 250px;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.maintext{
+  background-color: #F2D5C9;
+  padding-left: 350px;
+  padding-right: 100px;
+  margin-top: 15px;
+  padding-top: 20px;
+  font-size: 17px; 
+  font-family: verdana, geneva, optima;
+  opacity: 0.8;
+  color: black;
+  border-top: solid 1px #57422E;
+  border-bottom: solid 1px #57422E;
+  padding-bottom: 20px;
+  text-align: center; 
+}
+#heading1{
+  text-align: center;
+  margin-bottom: 10px; 
+  font-size: 30px; 
+  font-weight: 700;
+  font-family: Calibri, Verdana, Helvetica;
+  color: black;
+  opacity: 100%;
+}
+#secondparagraph{
+  padding-top: 5px;
+}
+.fa {
+  padding: 20px;
+  padding-left: 20px; 
+  padding-right: 35px;
+  margin-left: 10px; 
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 70%;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.logos{
+  margin-left: 200px; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center; 
+}
+.picture{
+  width: 400px;
+  height: 400px;
+  margin-top: 200px;
+  margin-right:80px;
+  float: right;
+  border-radius: 50%;
+  border: solid 7px black;
+}
+.paragraph{
+  margin-left: 250px;
+  margin-top: 20px;
+  margin-right: 600px;
+  color:#57422E;
+  font-size: 20px;
+  text-align: center;
+  font-family: avantgarde, "gill sans",arial;
+}
+.paragraphs{
+  margin-top:100px;
+  padding-bottom: 50px;
+}
+.heading{
+  margin-top: 20px;
+  padding-top: 20px;
+  background-color:#EDC8C0;
+  border-top: solid 2px #57422E;
+  color: black;
+  text-align: center;
+  border-bottom: solid 2px #57422E;
+  padding-bottom: 20px;
+  font-family: palatino, verdana, optima;
+}
+.links{
+  margin-left: 230px;
+  margin-top: 20px;
+  font-family: avantgarde, "gill sans",arial; 
+}
+#educate{
+  background-color:#F2D5C9;
+  font-size: 25px;
+  color: #57422E;
+}
+.learn{
+  text-align: center;
+  margin-left: 230px;
+  margin-right: 20px;
+  font-size: 20px;
+  margin-top:25px;
+  margin-bottom: 30px;
+  color: #57422E;
+  font-family: verdana, geneva, optima;
+}
+#explain{
+  margin-bottom:15px;
+}
+.learnmore{
+  margin-left: 650px;
+  text-align: center;
+  width:500px;
+  height:350px;
+  border: solid 3px black;
+  margin-bottom:40px;
+}
+#heading2{
+  margin-left: 200px;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 20px;
+  color: black;
+  margin-bottom: 20px;
+  font-family: palatino, verdana, optima; 
+}
+#myButton
+{
+  background-color: #57422E; /* Green */
+  border: solid 2px black;
+  color: #F2D5C9;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5%;
+  left: 50%;
+  -ms-transform: translateX(700%);
+  transform: translateX(700%);
+}
+}

@@ -1,0 +1,148 @@
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #F2D5C9; 
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: black;
+  text-align: right;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 80px;
+  font-family: "Courier New", "Lucida Console", monospace;
+  margin-top: 15px;
+  background-color: #DB9895;
+  opacity: 0.6;
+  border-top: solid 2px #57422E;
+  border-bottom: solid 2px #57422E;
+  font-weight: 800;
+}
+a:link{
+  text-decoration: none;
+  background-color: #DBB2AB;
+}
+a:visited{
+  text-decoration: none;
+  background-color: #DBB2AB;
+}
+a:hover{
+  text-decoration: none;
+  background-color: #DBC1AB;
+  color: white;
+}
+a:active{
+  text-decoration:none;
+  background-color: #F9E3C2;
+}
+ul {
+  list-style-type: none;
+  margin: 15px;
+  padding: 0;
+  width: 150px%;
+  background-color: #DBB2AB;
+  height: 95%;
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  border: solid 3px black;
+  z-index: 100;
+}
+li a {
+  color: black;
+  display: block;
+  width: 200px; 
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  font-size: 23px;
+  background-color: #DBB2AB;
+  font-weight: 700;
+  font-family: "Arial Rounded MT Bold", "Ariel Black", ariel;
+}
+.photos{
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 450px;
+  height: 300px;
+  border: solid 3px black;
+  border-radius: 5%;
+}
+#left{
+  margin-left: 250px;
+  float: left;
+}
+#right{
+  float:right; 
+}
+.textleft{
+  color: black;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  font-size:20px;
+  margin-right: 40px;
+  margin-left: 500px;
+  text-align: left;
+  font-family: optima, "noto sans",helvetica;
+  
+}
+.textright{
+  color: black;
+  margin-top: 260px;
+  margin-bottom: 190px;
+  margin-right: 540px;
+  font-size:20px;
+  margin-left: 250px;
+  text-align: right;
+  font-family: optima, "noto sans",helvetica;
+  
+}
+#thirdparagraph{
+  margin-top: 330px;
+  margin-bottom: 190px; 
+}
+#fourthparagraph{
+  margin-top: 300px;
+  margin-bottom-200px;
+}
+.fa {
+  padding: 20px;
+  padding-left: 20px; 
+  padding-right: 20px;
+  margin-left: 10px; 
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 70%;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.logos{
+  margin-left: 200px; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center; 
+}
